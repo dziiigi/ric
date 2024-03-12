@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background-color: #caf0f8; 
+}
+
+.naslov{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 60px;
+    color: #ff1975;
+    font-size: 50px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    margin-top: 25px;
+    margin: 25px;
+    display: flex;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ff1975;
+    transition: .5s;
+}
+
+ul li a:hover{
+    color: #b10047ad;
+}
+
+.istorija-nastanka{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.istorija-nastanka .container{
+    margin-left: auto;
+    width: 35%;
+}
+
+.istorija-nastanka img{ 
+    margin-bottom: 5%;
+    width: 350px;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.istorija-nastanka img:hover{
+    -webkit-box-shadow: 0px 0px 58px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 58px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 58px 4px rgba(0,0,0,0.75);
+}
+
+.istorija-nastanka p{
+    font-size: 22px;
+    margin-bottom: 5%;
+}
+
+.istorija-nastanka h2{
+    margin-bottom: 15px;
+}
+
+.istorija-nastanka1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.istorija-nastanka1 .container{
+    margin-right: auto;
+    width: 35%;
+    margin-bottom: 5%;
+}
+
+.istorija-nastanka1 img{ 
+    margin-bottom: 5%;
+    width: 350px;
+    border-radius: 30px;
+    transition: 1s;
+    margin-left: 40%;
+}
+
+.istorija-nastanka1 img:hover{
+    -webkit-box-shadow: 0px 0px 58px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 58px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 58px 4px rgba(0,0,0,0.75);
+}
+
+.istorija-nastanka1 p{
+    font-size: 22px;
+}
+
+.istorija-nastanka1 h2{
+    margin-bottom: 15px;
+}
